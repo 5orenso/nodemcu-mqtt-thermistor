@@ -8,6 +8,7 @@ __This is work in progress. I've just uploaded my CRUD project files for now. Pl
 * Run a couple of commands:
 ```bash
 $ cp ./platformio-dist.ini platformio.ini
+$ pio lib install PubSubClient
 ```
 
 Edit `platformio.ini` with your credentials and other settings.
