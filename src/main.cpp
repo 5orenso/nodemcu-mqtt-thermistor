@@ -14,14 +14,14 @@
 #include <PubSubClient.h>
 #include <sensorTemp.h>
 
-const char* ssid = "WIFI_SSID";
-const char* password = "WIFI_PASSWORD";
+const char* ssid = WIFI_SSID;
+const char* password = WIFI_PASSWORD;
 
-const char* mqtt_server = "MQTT_SERVER";
+const char* mqtt_server = MQTT_SERVER;
 const int   mqtt_port = MQTT_PORT;
 
-const char* outTopic = "MQTT_OUT_TOPIC"
-const char* inTopic = "MQTT_IN_TOPIC"
+const char* outTopic = MQTT_OUT_TOPIC;
+const char* inTopic = MQTT_IN_TOPIC;
 
 // which analog pin to connect
 #define THERMISTORPIN A0
